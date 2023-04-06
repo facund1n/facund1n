@@ -27,18 +27,19 @@
 
 a {
   font-weight: 500;
-  color: #646cff;
+  color: #9dff00;
   text-decoration: inherit;
 }
 a:hover {
-  color: #535bf2;
+  color: #4df626;
+  transition: 0.5s;
 }
 
 body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url("../public/bg.png");
+  background-image: url("/bg.png");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -71,29 +72,36 @@ button:focus-visible {
 }
 /* parallax back ground image effect + title*/
 .parallax {
-  background-image: url("../public/bg.png");
-  margin: 0 100px 0 0;
-  box-shadow: -1px -1px 10px #ffffff30;
+  background-image: url("bg.png");
+  /*  box-shadow: -1px -1px 3px #ffffff30; */
+
+  border: solid 1px #ffffff30;
   border-radius: 8px;
 }
-@media (max-width: 425px) {
-  .parallax {
-    background-image: url("https://tinypic.host/images/2023/04/02/blur-code-bg.png");
-    min-height: 450px;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
 
-/* fonts custom */
-
-.fonts-green-ligth {
+/* font custom */
+.font-green-light {
   color: #a6ff00;
 }
-.fonts-green-dark {
+.font-green-dark {
   color: #4df626;
+}
+/* center */
+.centerDiv {
+  display: grid;
+  place-items: center;
+}
+/* ul li */
+ul {
+  list-style: none;
+}
+ul li::before {
+  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #a6ff00;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
 }
 
 /* @media (prefers-color-scheme: light) {

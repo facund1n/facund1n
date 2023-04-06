@@ -3,14 +3,18 @@ import Image from "react-bootstrap/Image";
 const ProfileImg = () => {
   return (
     <>
-      <Image
-        src="https://tinypic.host/images/2023/04/05/profile.jpg"
-        alt="facund1n"
-        className="my-2"
-        rounded
-        fluid
-        style={{ border: "solid 1px #865DFF" }}
-      />
+      <div className="centerDiv">
+        <Image
+          src="https://tinypic.host/images/2023/04/05/profile.jpg"
+          alt="facund1n"
+          rounded
+          height={"350px"}
+          style={{
+            border: "solid 1px #865DFF80",
+          }}
+        />
+      </div>{" "}
+      <hr />
     </>
   );
 };
