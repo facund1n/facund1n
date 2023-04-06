@@ -34,6 +34,7 @@ const Grid = () => {
           <Experiencie />
           <hr />
           <Education />
+          <hr />
         </Col>
       </Row>
       <GallerySlider />

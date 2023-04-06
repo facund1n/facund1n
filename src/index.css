@@ -39,7 +39,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100vh;
-  background-image: url("/bg.png");
+  background-image: linear-gradient(#0d0d0d, #171616);
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -70,8 +70,6 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-/* parallax back ground image effect + title*/
-
 /* font custom */
 .font-green-light {
   color: #a6ff00;
@@ -96,7 +94,10 @@ ul li::before {
   width: 1em;
   margin-left: -1em;
 }
-
+/* gradients */
+.gradient1 {
+  background-color: linear-gradient(#120d22, #865dff);
+}
 /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

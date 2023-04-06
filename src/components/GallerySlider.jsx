@@ -85,7 +85,7 @@ const GallerySlider = ({ settings }) => {
         </div>
         <div>
           <a href="https://html-css-review.vercel.app/" target="_blank">
-            View page: Black Mesa Single HTML + CSS
+            View page: Simple HTML + CSS
           </a>
           <hr />
           <img
