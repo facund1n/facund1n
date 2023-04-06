@@ -1,4 +1,3 @@
-import Container from "react-bootstrap/Container";
 import Slider from "react-slick";
 
 const SampleNextArrow = (props) => {
@@ -34,7 +33,7 @@ const SamplePrevArrow = (props) => {
 };
 
 const render = () => {
-  var settings = {
+  let settings = {
     infinite: false,
     speed: 300,
     slidesToShow: 1,
