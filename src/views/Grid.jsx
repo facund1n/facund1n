@@ -8,6 +8,9 @@ import Tecnologies from "../components/Tecnologies";
 import Experiencie from "../components/Experiencie";
 import Contact from "../components/Contact";
 import Education from "../components/Education";
+import Habilities from "../components/Habilities";
+import GallerySlider from "../components/GallerySlider";
+import Footer from "../components/Footer";
 
 const Grid = () => {
   return (
@@ -19,19 +22,22 @@ const Grid = () => {
       <Row>
         <Col lg={3}>
           <ProfileImg />
+          <br />
+          <Description />
           <Contact />
         </Col>
         <Col lg={9}>
-          <Description />
-          <hr />
           <Tecnologies />
+          <hr />
+          <Habilities />
           <hr />
           <Experiencie />
           <hr />
           <Education />
         </Col>
       </Row>
-      <hr />
+      <GallerySlider />
+      <Footer />
     </Container>
   );
 };

@@ -1,5 +1,4 @@
-import Image from "../components/ProfileImg.jsx";
-import Intro from "../components/Intro.jsx";
+import Intro from "../components/Intro";
 
 const Header = () => {
   return (

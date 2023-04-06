@@ -13,8 +13,7 @@ const ProfileImg = () => {
             border: "solid 1px #865DFF80",
           }}
         />
-      </div>{" "}
-      <hr />
+      </div>
     </>
   );
 };

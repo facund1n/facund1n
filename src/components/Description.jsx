@@ -5,8 +5,9 @@ const Description = () => {
     <section className="text-left">
       <h6>About me:</h6>
       <p>
-        My name is Facundo Sanchez I have recently finished the WEB FULLSTACK
-        PROGRAMMER course at Rolling Code School in Tucumán city, Argentina.
+        My name is Facundo Sanchez i'm 33 years old, I have recently finished
+        the WEB FULLSTACK PROGRAMMER course at Rolling Code School in Tucumán
+        city, Argentina.
       </p>
       <p>
         Open to try new concepts and ideas, in search of growth as a person in

@@ -71,13 +71,6 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 /* parallax back ground image effect + title*/
-.parallax {
-  background-image: url("bg.png");
-  /*  box-shadow: -1px -1px 3px #ffffff30; */
-
-  border: solid 1px #ffffff30;
-  border-radius: 8px;
-}
 
 /* font custom */
 .font-green-light {
