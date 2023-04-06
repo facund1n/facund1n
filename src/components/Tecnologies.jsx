@@ -4,7 +4,7 @@ import Col from "react-bootstrap/Col";
 const Tecnologies = () => {
   return (
     <>
-      <section>
+      <section id="technologies">
         <h2 className="text-center font-green-light">Technologies</h2>
         <br />
         <Row>

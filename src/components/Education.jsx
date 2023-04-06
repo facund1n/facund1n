@@ -1,6 +1,6 @@
 const Education = () => {
   return (
-    <section>
+    <section id="education">
       <h2 className="font-green-light">Education</h2>
       <p>
         <strong>ROLLING CODE SCHOOL</strong> - Fullstack Web Developer |

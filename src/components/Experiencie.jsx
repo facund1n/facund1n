@@ -1,7 +1,7 @@
 const Experiencie = () => {
   return (
     <>
-      <section>
+      <section id="experience">
         <h2 className="font-green-light">Experience</h2>
         <h6>
           08/2016 - present: <strong>Teleperformance</strong>

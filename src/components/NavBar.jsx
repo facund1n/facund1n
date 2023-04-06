@@ -16,10 +16,11 @@ const NavBar = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
-            <Nav.Link href="#Technologies">Technologies</Nav.Link>
-            <Nav.Link href="#Habilities">Habilities</Nav.Link>
-            <Nav.Link href="#Experience">Experience</Nav.Link>
-            <Nav.Link href="#Education">Education</Nav.Link>
+            <Nav.Link href="#technologies">Technologies</Nav.Link>
+            <Nav.Link href="#habilities">Habilities</Nav.Link>
+            <Nav.Link href="#experience">Experience</Nav.Link>
+            <Nav.Link href="#education">Education</Nav.Link>
+            <Nav.Link href="#portfolio">Portfolio</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

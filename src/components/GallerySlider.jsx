@@ -72,7 +72,9 @@ const render = () => {
 const GallerySlider = ({ settings }) => {
   return (
     <>
-      <h2 className="font-green-light">Portfolio</h2>
+      <h2 className="font-green-light" id="portfolio">
+        Portfolio
+      </h2>
 
       <Slider {...settings}>
         <div>
