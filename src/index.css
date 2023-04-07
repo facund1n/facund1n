@@ -9,9 +9,11 @@
 #171616
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+
 :root {
-  line-height: 1.5;
-  font-weight: 400;
+  /*   line-height: 1.5;
+  font-weight: 400; */
 
   color-scheme: light dark;
   color: #ffffffde;
@@ -35,6 +37,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   color: #ffffff;
+  font-family: "Titillium Web", sans-serif;
 }
 /*  h */
 h1 {
