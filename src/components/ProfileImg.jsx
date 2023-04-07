@@ -3,7 +3,7 @@ import Image from "react-bootstrap/Image";
 const ProfileImg = () => {
   return (
     <>
-      <div className="centerDiv">
+      <div className="centerDiv profileHidder">
         <Image
           src="https://tinypic.host/images/2023/04/05/profile.jpg"
           alt="facund1n"

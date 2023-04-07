@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (
-    <section className="text-left">
+    <section>
       <h6>About me:</h6>
       <p>
         My name is Facundo Sanchez i'm 33 years old, I have recently finished
