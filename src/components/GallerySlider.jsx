@@ -78,16 +78,20 @@ const GallerySlider = ({ settings }) => {
 
       <Slider {...settings}>
         <div>
-          <a href="https://3i-show.vercel.app/" target="_blank">
-            View page: Heavy Metal Blog
-          </a>
+          <button>
+            <a href="https://3i-show.vercel.app/" target="_blank">
+              View page: Heavy Metal Blog
+            </a>
+          </button>
           <hr />
           <img src="hbm-preview.png" alt="hmb-preview" className="img-fluid" />
         </div>
         <div>
-          <a href="https://html-css-review.vercel.app/" target="_blank">
-            View page: Simple HTML + CSS
-          </a>
+          <button>
+            <a href="https://html-css-review.vercel.app/" target="_blank">
+              View page: Simple HTML + CSS
+            </a>
+          </button>
           <hr />
           <img
             src="bkmesa-preview.png"
