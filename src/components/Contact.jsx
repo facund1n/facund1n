@@ -10,6 +10,7 @@ const Contact = () => {
       <div>+54 9 3813478874</div>
       <div>CUIT/CUIL</div>
       <div>23 34186604 9</div>
+      <br />
     </>
   );
 };
