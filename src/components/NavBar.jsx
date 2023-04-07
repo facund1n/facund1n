@@ -4,15 +4,9 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
   return (
-    <Navbar
-      collapseOnSelect
-      expand="lg"
-      /* bg="light" */
-      variant="dark"
-      style={{ backgroundColor: "linear-gradient(#120d22, #865dff)" }}
-    >
+    <Navbar collapseOnSelect expand="lg" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">{`</>`}</Navbar.Brand>
+        <Navbar.Brand href="#home">{`</>`} facund1n's portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ms-auto">
