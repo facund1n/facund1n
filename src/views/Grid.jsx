@@ -40,8 +40,8 @@ const Grid = () => {
           </Col>
           <hr />
         </Row>
-        <GallerySlider />
       </Fade>
+      <GallerySlider />
       <Footer />
     </Container>
   );
