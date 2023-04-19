@@ -88,6 +88,19 @@ const GallerySlider = ({ settings }) => {
         </div>
         <div>
           <button>
+            <a href="https://vite-commerce-gamma.vercel.app/" target="_blank">
+              View page: Vite-Commerce ( work in progress )
+            </a>
+          </button>
+          <hr />
+          <img
+            src="viteCommerce-preview.png"
+            alt="viteCommerce-preview"
+            className="img-fluid"
+          />
+        </div>
+        <div>
+          <button>
             <a href="https://html-css-review.vercel.app/" target="_blank">
               View page: Simple HTML + CSS
             </a>
