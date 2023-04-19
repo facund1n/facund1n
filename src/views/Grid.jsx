@@ -16,7 +16,7 @@ import Fade from "react-reveal/Fade";
 
 const Grid = () => {
   return (
-    <Container className="my-2 ">
+    <Container>
       <Fade bottom>
         <Row>
           <Header />

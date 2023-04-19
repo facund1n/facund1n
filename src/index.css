@@ -124,6 +124,23 @@ ul li::before {
     display: none;
   }
 }
+.sidebar {
+  position: sticky;
+  top: 0px;
+  float: right;
+  padding-top: 62px;
+}
+
+@media (max-width: 1510px) {
+  .sidebar {
+    display: none;
+  }
+  .topBar {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+  }
+}
 /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;

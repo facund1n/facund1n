@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import NavBar from "./components/NavBar";
+import SideNavBar from "./components/SideNavBar";
 import Grid from "./views/Grid";
 import Container from "react-bootstrap/Container";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -10,8 +11,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
+    {" "}
     <NavBar />
-    <Container className="my-2">
+    <SideNavBar />
+    <Container>
       <div>
         <Grid />
       </div>
