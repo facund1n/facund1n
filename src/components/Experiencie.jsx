@@ -1,6 +1,6 @@
 const Experiencie = () => {
   return (
-    <>
+    <div className="bg-ligth-gray card-border p-4">
       <section id="experience">
         <h2 className="font-green-light">Experience</h2>
         <h6>
@@ -18,7 +18,7 @@ const Experiencie = () => {
           Maintenance and cleaning of PC components. PC build.
         </p>
       </section>
-    </>
+    </div>
   );
 };
 

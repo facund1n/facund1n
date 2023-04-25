@@ -9,12 +9,11 @@
 #171616
 */
 
-@import url("https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap");
 
 * {
   font-family: "Titillium Web", sans-serif;
   line-height: 1.8;
-  font-weight: bolder;
 }
 :root {
   color-scheme: light dark;
@@ -59,7 +58,7 @@ a:hover {
 /* buttons */
 button {
   border-radius: 8px;
-  border: 1px solid transparent;
+  border: 1px solid #9dff0060;
   padding: 0.6em 1.2em;
   font-size: 1em;
   font-weight: 500;
@@ -86,7 +85,7 @@ button:focus-visible {
   font-family: "Times New Roman", Times, serif;
   padding: 0 1em 0 1em;
   line-height: 1.5;
-  font-weight: 400;
+  font-weight: bold;
 }
 /* center */
 .centerDiv {
@@ -96,13 +95,15 @@ button:focus-visible {
 /* ul li */
 ul {
   list-style: none;
+  font-size: large;
+  font-weight: bold;
 }
 ul li::before {
-  content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  content: "\2234"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: #a6ff00;
   font-weight: bold;
   display: inline-block;
-  width: 1em;
+  width: 1.5em;
   margin-left: -0.5em;
 }
 
@@ -140,6 +141,17 @@ ul li::before {
     top: 0px;
     z-index: 1;
   }
+}
+
+.bg-dark-gray {
+  background-color: #1a1a1a;
+}
+
+.bg-ligth-gray {
+  background-color: #242424;
+}
+.card-border {
+  border-radius: 6px;
 }
 /* @media (prefers-color-scheme: light) {
   :root {

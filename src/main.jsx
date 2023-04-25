@@ -11,13 +11,10 @@ import "slick-carousel/slick/slick-theme.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    {" "}
     <NavBar />
     <SideNavBar />
-    <Container>
-      <div>
-        <Grid />
-      </div>
+    <Container className="bg-dark-gray card-border my-2">
+      <Grid />
     </Container>
   </React.StrictMode>
 );

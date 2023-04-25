@@ -4,7 +4,7 @@ import Container from "react-bootstrap/Container";
 
 const Habilities = () => {
   return (
-    <>
+    <div className="bg-ligth-gray card-border p-3">
       <section id="habilities">
         <h2 className="text-center font-green-light">Habilities</h2>
         <br />
@@ -34,7 +34,7 @@ const Habilities = () => {
           </Row>
         </Container>
       </section>
-    </>
+    </div>
   );
 };
 

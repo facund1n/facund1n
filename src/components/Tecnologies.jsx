@@ -4,9 +4,9 @@ import Container from "react-bootstrap/Container";
 
 const Tecnologies = () => {
   return (
-    <>
+    <div className="bg-ligth-gray card-border p-3">
       <section id="technologies">
-        <h2 className="text-center font-green-light">Technologies</h2>
+        <h2 className="text-center font-green-light ">Technologies</h2>
         <br />
         <Container>
           <Row className="p-2">
@@ -36,7 +36,7 @@ const Tecnologies = () => {
           </Row>
         </Container>
       </section>
-    </>
+    </div>
   );
 };
 
