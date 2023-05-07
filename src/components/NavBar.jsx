@@ -4,8 +4,13 @@ import Navbar from "react-bootstrap/Navbar";
 
 const NavBar = () => {
   return (
-    <Navbar collapseOnSelect expand="lg" variant="dark" className="topBar">
-      <Container>
+    <Navbar
+      collapseOnSelect
+      expand="lg"
+      variant="dark"
+      className="topBar nav-animation"
+    >
+      <Container className="nav-text-animation">
         <Navbar.Brand href="#home">{`</>`} facund1n's portfolio</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

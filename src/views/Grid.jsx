@@ -12,16 +12,13 @@ import Habilities from "../components/Habilities";
 import GallerySlider from "../components/GallerySlider";
 import Footer from "../components/Footer";
 import React from "react";
-import Fade from "react-reveal/Fade";
 
 const Grid = () => {
   return (
-    <Container>
-      <Fade bottom>
-        <Row>
-          <Header />
-        </Row>
-        <hr />
+    <Container className="bg-dark-gray">
+      <Header />
+      <hr />
+      <div className="default-animation">
         <Row>
           <Col lg={3}>
             <ProfileImg />
@@ -40,8 +37,9 @@ const Grid = () => {
           </Col>
           <hr />
         </Row>
-      </Fade>
-      <GallerySlider />
+
+        <GallerySlider />
+      </div>
       <Footer />
     </Container>
   );

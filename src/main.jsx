@@ -13,7 +13,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <NavBar />
     <SideNavBar />
-    <Container className="bg-dark-gray card-border my-2">
+
+    <Container className="card-border my-2">
       <Grid />
     </Container>
   </React.StrictMode>

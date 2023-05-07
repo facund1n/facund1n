@@ -14,6 +14,7 @@
 * {
   font-family: "Titillium Web", sans-serif;
   line-height: 1.8;
+  font-size: large;
 }
 :root {
   color-scheme: light dark;
@@ -27,6 +28,48 @@
   -webkit-text-size-adjust: 100%;
 
   transition: 100ms;
+}
+
+.default-animation {
+  animation-timing-function: ease;
+  animation: defaultAnimation 1.5s;
+}
+
+.nav-animation {
+  animation-timing-function: ease;
+  animation: navAmination 2s;
+}
+
+.nav-text-animation {
+  animation-timing-function: ease;
+  animation: navTextAnimation 4s;
+}
+
+@keyframes defaultAnimation {
+  from {
+    margin-top: 50%;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
+}
+@keyframes navAmination {
+  from {
+    margin: 0 50%;
+  }
+  to {
+    margin: 0;
+  }
+}
+@keyframes navTextAnimation {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 body {
   margin: 0;

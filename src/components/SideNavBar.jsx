@@ -5,7 +5,7 @@ const SideNavBar = () => {
   return (
     <Nav
       defaultActiveKey="/home"
-      className="flex-column text-end sidebar"
+      className="flex-column text-end sidebar default-animation"
       sticky="top"
     >
       <Nav.Link href="#home">Home</Nav.Link>

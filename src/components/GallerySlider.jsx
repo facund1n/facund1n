@@ -79,15 +79,6 @@ const GallerySlider = ({ settings }) => {
       <Slider {...settings}>
         <Container>
           <button>
-            <a href="https://3i-show.vercel.app/" target="_blank">
-              View page: Heavy Metal Blog
-            </a>
-          </button>
-          <hr />
-          <img src="hbm-preview.png" alt="hmb-preview" className="img-fluid" />
-        </Container>
-        <Container>
-          <button>
             <a href="https://vite-commerce-gamma.vercel.app/" target="_blank">
               View page: Vite-Commerce ( work in progress )
             </a>
@@ -98,6 +89,15 @@ const GallerySlider = ({ settings }) => {
             alt="viteCommerce-preview"
             className="img-fluid"
           />
+        </Container>
+        <Container>
+          <button>
+            <a href="https://3i-show.vercel.app/" target="_blank">
+              View page: Heavy Metal Blog
+            </a>
+          </button>
+          <hr />
+          <img src="hbm-preview.png" alt="hmb-preview" className="img-fluid" />
         </Container>
         <Container>
           <button>
